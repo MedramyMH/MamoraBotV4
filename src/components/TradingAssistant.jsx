@@ -15,6 +15,9 @@ import { enhancedPocketOptionService } from '../data/enhancedPocketOptionService
 import { advancedMLEngine } from '../data/advancedMLEngine';
 import { riskManagementSystem } from '../data/riskManagementSystem';
 import { connectionPersistence } from '../data/connectionPersistence';
+import { EnhancedPocketOptionConnection } from './EnhancedPocketOptionConnection';
+import { StrategySelector } from './StrategySelector';
+import { RealTimePricing } from './RealTimePricing';
 
 const TradingAssistant = () => {
   const navigate = useNavigate();
